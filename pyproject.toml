@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "investment-news-service"
+name = "investment-bot"
 version = "0.1.0"
 description = ""
 authors = ["Tigran Saatchyan <mr.saatchyan@yandex.com>"]
@@ -10,6 +10,9 @@ package-mode = false
 python = "^3.10"
 fastapi = "^0.111.1"
 uvicorn = "^0.30.1"
+httpx = "^0.27.0"
+requests = "^2.32.3"
+yfinance = "^0.2.41"
 
 
 [build-system]
